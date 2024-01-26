@@ -1,10 +1,6 @@
 let input = document.getElementById('inputbox');
 let button = document.querySelectorAll('button');
-var x = document.getElementById("myAudio"); 
 
-function playAudio() { 
-  x.play(); 
-} 
 
 let string = "";
 let arr = Array.from(button);
