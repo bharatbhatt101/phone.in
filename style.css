@@ -313,9 +313,9 @@ b {
 }
 
 .red {
-    background-color: green;
+    background-color: red;
     color: white;
-    border: 2px solid green;
+    border: 2px solid red;
     border-radius: 40px;
     width: 80px;
     height: 50px;
