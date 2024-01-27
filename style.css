@@ -196,6 +196,21 @@ b {
 
 }
 
+.red {
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 40px;
+    width: 70px;
+    height: 40px;
+    margin: 8px;
+    cursor: pointer;
+    box-shadow: 0px 3px 15px rgba(225, 225, 220, 0.3);
+    transition: transform .2s;
+    /* margin-left: 38%; */
+
+}
+
 .border {
     border: 2px solid rgb(214, 211, 211);
     border-radius: 60px;
@@ -214,6 +229,11 @@ b {
 }
 
 .orange:hover {
+    transform: scale(1.1);
+
+}
+
+.red:hover {
     transform: scale(1.1);
 
 }
@@ -293,6 +313,21 @@ b {
 
 }
 
+.red {
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    border-radius: 40px;
+    width: 80px;
+    height: 50px;
+    margin: 8px;
+    cursor: pointer;
+    box-shadow: 0px 3px 15px rgba(225, 225, 220, 0.3);
+    transition: transform .2s;
+    /* margin-left: 38%; */
+    float:center;
+
+}
 .border {
     border: 2px solid rgb(214, 211, 211);
     border-radius: 50px;
@@ -311,6 +346,11 @@ b {
 }
 
 .orange:hover {
+    transform: scale(1.1);
+
+}
+
+.red:hover {
     transform: scale(1.1);
 
 }

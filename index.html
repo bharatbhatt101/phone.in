@@ -15,22 +15,22 @@
   <div class="smain">
     
     <audio id="myAudio">
-      <source src="music/music.mp3" type="audio/mpeg">
-      <source src="music/music.ogg" type="audio/ogg">
+      <source src="music.mp3" type="audio/mpeg">
+      <source src="music.ogg" type="audio/ogg">
     </audio>
     <audio id="myAudioCall">
-      <source src="music/call.mp3" type="audio/mpeg">
-      <source src="music/call.ogg" type="audio/ogg">
+      <source src="call.mp3" type="audio/mpeg">
+      <source src="call.ogg" type="audio/ogg">
     </audio>
-    <div class="dkb1"> <a href="pic/dkb1.png"><img src="pic/dkb1.png" alt="DK" class="profile"></a>
+    <div class="dkb1"> <a href="dkb1.png"><img src="dkb1.png" alt="DK" class="profile"></a>
       <b>Dinesh Kumar</b>
       <p class="mn">Mobile +919988693933 <i class="fa-solid fa-phone"></i></p>
     </div>
-    <div class="rkb1"> <a href="pic/rkb1.png"><img src="pic/rkb1.png" alt="RK" class="profile"></a>
+    <div class="rkb1"> <a href="rkb1.png"><img src="rkb1.png" alt="RK" class="profile"></a>
       <b>Raj Kaumar</b>
       <p class="mn">Mobile +917508376886 <i class="fa-solid fa-phone"></i></p>
     </div>
-    <div class="rkb2"> <a href="pic/d.png"><img src="pic/d.png" alt="D" class="profile"></a>
+    <div class="rkb2"> <a href="d.png"><img src="d.png" alt="D" class="profile"></a>
       <b>Deepa</b>
       <p class="mn">Mobile +919988679894 <i class="fa-solid fa-phone"></i></p>
     </div>
@@ -98,6 +98,7 @@
 
       <div>
         <button class=" orange" onclick="playAudioCall()" type="button"><i class="fa-solid fa-phone"></i> <a>Call</a></button>
+        <button class="red" onclick="pauseAudioCall()" type="button"><i class="fa-solid fa-phone"></i> <a>End</a></button>
       </div>
 
 
@@ -114,7 +115,11 @@ function playAudio() {
 
 function playAudioCall() { 
   y.play(); 
-} 
+}
+
+function pauseAudioCall() { 
+  y.pause(); 
+}
 
   </script>
 
